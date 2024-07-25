@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Todo from "./assets/Todo";
 import Header from "./components/Header";
+import Todo from "./assets/Todo";
 
 export default function App() {
   const light = "light";
