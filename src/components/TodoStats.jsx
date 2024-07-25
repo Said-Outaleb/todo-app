@@ -14,7 +14,13 @@ export default function TodoStats({ todos, setTodos, light, mode }) {
   }
 
   return (
-    <div className={`flex justify-around bg-slate-800 mx-4 w-11/12   py-4  mt-4  mb-1  text-slate-600 rounded-md ${mode === light ? 'bg-slate-100 text-slate-950' : ''}`}>
+    <div
+      className={`flex justify-around  mx-4 w-11/12   py-4  mt-4  mb-1   rounded-md ${
+        mode === light
+          ? "bg-slate-100 text-slate-950"
+          : "bg-slate-800 text-slate-600"
+      }`}
+    >
       <div>
         {leftItem} {leftItem < 2 ? "item" : "items"} left
       </div>
