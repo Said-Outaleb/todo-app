@@ -5,7 +5,7 @@ import Header from "./components/Header";
 export default function App() {
   const light = "light";
   const dark = "dark";
-  const [mode, setMode] = useState(dark);
+  const [mode, setMode] = useState(light);
   return (
     <div
       className={`capitalize container mx-auto p-5 my-5 rounded-md relative text-slate-200 ${
