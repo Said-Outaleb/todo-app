@@ -16,11 +16,12 @@ export default function Header({ mode, setMode, light, dark }) {
     >
       <h1 className="font-bold text-3xl uppercase ">todo</h1>
       <img
-        src={
-          mode === dark ? "public/icon-sun.svg" : "public/icon-moon.svg"
-        }
+        src={mode === dark ? "/icon-sun.svg" : "/icon-moon.svg"}
+
         alt={`${mode === dark ? "sun" : "moon"}`}
-        className={` rounded-full p-1 transition duration-300 ${mode === light ? "bg-slate-900" : "bg-yellow-600 "} `}
+        className={` rounded-full p-1 transition duration-300 ${
+          mode === light ? "bg-slate-900" : "bg-yellow-600 "
+        } `}
         onClick={changeMode}
       />
     </div>

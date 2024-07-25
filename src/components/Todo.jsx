@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
-import SortTodos from "../components/SortTodos";
-import TodoList from "../components/TodoList";
-import TodoStats from "../components/TodoStats";
-import AddTodo from "../components/AddTodo";
+import SortTodos from "./SortTodos";
+import TodoList from "./TodoList";
+import TodoStats from "./TodoStats";
+import AddTodo from "./AddTodo";
 
 import { useEffect, useRef, useState } from "react";
 

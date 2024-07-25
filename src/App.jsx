@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./components/Header";
-import Todo from "./assets/Todo";
+import Todo from "./components/Todo";
 
 export default function App() {
   const light = "light";
@@ -23,7 +23,7 @@ export default function App() {
         <a
           href="https://x.com/Said_Outalb"
           className={`ml-1 hover:text-blue-400 ${
-            mode === light ? "font-bold hover:text-blue-600"  : ""
+            mode === light ? "font-bold hover:text-blue-600" : ""
           }`}
         >
           @Said_Outalb
