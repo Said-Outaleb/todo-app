@@ -16,7 +16,7 @@ export default function Header({ mode, setMode, light, dark }) {
     >
       <h1 className="font-bold text-3xl uppercase ">todo</h1>
       <img
-        src={mode === dark ? "/icon-sun.svg" : "/icon-moon.svg"}
+        src={mode === dark ? "public/icon-sun.svg" : "public/icon-moon.svg"}
 
         alt={`${mode === dark ? "sun" : "moon"}`}
         className={` rounded-full p-1 transition duration-300 ${
