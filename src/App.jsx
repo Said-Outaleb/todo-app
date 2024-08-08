@@ -21,7 +21,7 @@ export default function App() {
       >
         Created by{" "}
         <a
-          href="https://x.com/Said_Outalb"
+          href="https://x.com/Said_Outalb" target="_blank"
           className={`ml-1 hover:text-blue-400 ${
             mode === light ? "font-bold hover:text-blue-600" : ""
           }`}
