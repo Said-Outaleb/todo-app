@@ -26,7 +26,7 @@ export default function App() {
             mode === light ? "font-bold hover:text-blue-600" : ""
           }`}
         >
-          @Said_Outalb
+          @Said_Outaleb
         </a>
       </span>
     </div>
